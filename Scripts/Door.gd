@@ -9,7 +9,7 @@ func _ready():
 
 
 func _on_Door_body_entered(body):
-	if body.name == "Player" || body.name == "PlayerAlternate":
+	if body.name == "PlayerAlternate":
 		anim.play("Open")
 
 

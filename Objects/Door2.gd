@@ -9,11 +9,11 @@ func _ready():
 
 
 func _on_Door_body_entered(body):
-	if body.name == "Player" || body.name == "PlayerAlternate" || body.name == "Enemy":
+	if body.name == "PlayerAlternate":
 		anim.play("Open")
 
 
 func _on_Door_Animation_animation_finished(anim_name):
 	if anim_name == "Open":
 		block.disabled == true
-		get_tree().change_scene("res://Scenes/MainMenu.tscn")
+		get_tree().change_scene("res://Scenes/DemoLevel3.tscn")

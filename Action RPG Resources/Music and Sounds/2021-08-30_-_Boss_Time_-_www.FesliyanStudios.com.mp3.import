@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3-38f773595a0510ad57c5ba454b0a1418.mp3str"
+
+[deps]
+
+source_file="res://Action RPG Resources/Music and Sounds/2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3"
+dest_files=[ "res://.import/2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3-38f773595a0510ad57c5ba454b0a1418.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
